@@ -1,10 +1,12 @@
 {
   "domain": "openevse",
   "name": "OpenEVSE",
-  "codeowners": [],
+  "codeowners": ["@c00w"],
+  "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/openevse",
+  "integration_type": "device",
   "iot_class": "local_polling",
   "loggers": ["openevsewifi"],
-  "quality_scale": "legacy",
+  "quality_scale": "bronze",
   "requirements": ["openevsewifi==1.1.2"]
 }
